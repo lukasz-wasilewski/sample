@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  border: 2px solid black;
+  border-right: none;
+  border-left: none;
+  padding: 20px 0;
+}
+
+.search-bar > div {
+  margin-right: 20px;
+}

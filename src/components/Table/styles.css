@@ -1,0 +1,62 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.pagination-item {
+  min-width: 30px;
+  min-height: 40px;
+  border: 1px solid grey;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: cornflowerblue;
+}
+
+.pagination-item.active {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.pagination-item:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.pagination-item:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.pagination-item + .pagination-item {
+  border-left: none;
+}
+
+.pagination-item:visited {
+  color: cornflowerblue;
+}
+
+.pagination-item:visited.active {
+  color: white;
+}
+
+.root {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.paper {
+  width: 100%;
+  margin-bottom: 10px
+}
+
+.table {
+  min-width: 750px;
+}
+
+.table-wrapper {
+  overflow-x: 'auto';
+}
